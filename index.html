@@ -58,7 +58,7 @@
 <body>
     <div id="ui-layer">
         <div class="guide">
-            🖐 <b>Mở tay:</b> Tung hoa | ✊ <b>Nắm tay:</b> Cây thông | 🫶 <b>2 tay:</b> Trái tim <br>
+            🖐 <b>Mở tay:</b> Tung hoa | ✊ <b>Nắm tay:</b> Cây thông | ❤ <b>2 trái tim:</b> Trái tim <br>
             ✌️ <b>2 ngón tay:</b> Tự động chuyển ảnh (2s) | 👌 <b>Pinch:</b> Xem ảnh
         </div>
         <br>
@@ -80,7 +80,7 @@
         bgMusic.loop = true;
 
         const loader = new THREE.TextureLoader();
-        const photoFiles = ['./noel1.jpg', './noel2.jpg', './noel3.jpg', './noel4.jpg', './noel5.jpg'];
+        const photoFiles = ['./noel1.jpg', './noel2.jpg', './noel3.jpg', './noel5.jpg', './noel6.jpg'];
         const photoTextures = photoFiles.map(f => loader.load(f));
 
         function createCustomTexture(type) {
@@ -320,4 +320,5 @@
         });
     </script>
 </body>
+
 </html>
